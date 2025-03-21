@@ -12,19 +12,19 @@ base_info:
   primary_color: "#0066cc"
 
   # Blog website title
-  title: Keep Theme
+  title: 假面骑士鸡翅
 
   # Blog website author name
-  author: Keep Team
+  author: 假面骑士鸡翅
 
   # Author avatar, You can use local image path or image link
-  avatar: /images/avatar.svg
+  avatar: /images/gintoki.jpg
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/logo.svg
+  logo: /images/m-solid.svg
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/logo.svg
+  favicon: /images/m-solid.svg
 
 
 # ---------------------------------------------------------------------------------------
@@ -37,11 +37,11 @@ menu:
   home: /                       # || fa-solid fa-home
   archives: /archives           # || fa-solid fa-box-archive
   # tags: /tags                 # || fa-solid fa-tags
-  # categories: /categories     # || fa-solid fa-layer-group
+  categories: /categories     # || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
   # tools: /tools               # || fa-solid fa-tools
-  # about: /about               # || fa-solid fa-user-graduate
+  about: /about               # || fa-solid fa-user-graduate
   # ......
 
 
@@ -49,7 +49,7 @@ menu:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/first_screen.html
 # ---------------------------------------------------------------------------------------
 first_screen:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
   background_img: /images/bg.svg
@@ -59,7 +59,7 @@ first_screen:
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
-  description: Keep writing and Keep loving.
+  description: 少说多做.
 
   # If enable hitokoto, first screen description is different every time when you enter the website
   hitokoto: false      # Option values: true | false
@@ -69,21 +69,21 @@ first_screen:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
     # If you want to click open the picture, you need to add a prefix `img | `,
     # at the same time change your link to the image link.
     # e.g. `weixin: img | ./images/qrcode.png`
-    github:          # GitHub
-    weixin:          # WeChat
+    github: https://github.com/maxiro-samurai?tab=repositories        # GitHub
+    weixin: https://cdn.jsdelivr.net/gh/maxiro-samurai/image-bed@main/image/ad01993090e4d387c073471d03d094a.309ilwz6z0m0.webp        # WeChat
     qq:              # QQ
     weibo:           # WeiBo
     zhihu:           # ZhiHu
     twitter:         # Twitter
     x:               # X
     facebook:        # Facebook
-    email:           # Email
+    email: 1144634366@qq.com           # Email
 
 
 # ---------------------------------------------------------------------------------------
@@ -213,7 +213,7 @@ local_search:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false   # Option values: true | false
+  enable: true   # Option values: true | false
   use: valine     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
